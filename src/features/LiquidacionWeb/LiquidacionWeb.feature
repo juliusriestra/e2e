@@ -11,8 +11,8 @@ And  ingreso al carrito y verifico que se haya agregado el producto al carrito.
 
 
 Examples:
-| Pais | Usuario | Password |  cantidad |
-| PE |044676648| 1 | 7 |
+| Pais |  Usuario  | Password |  cantidad |
+|  PE  | 044676648 |    1     | 7 |
 
 @LiquidacionWeb @Landing
 Scenario Outline: Agregar pedido de Liquidacion Web desde el Landing
@@ -26,5 +26,5 @@ And verifico que el producto se haya agregado al carrito
 And verifico que el producto haya ingresado al pedido satisfactoriamente
 
 Examples:
-| Pais | Usuario | Password |  cantidad |
-| PE |044676648| 1 | 50|
+| Pais |  Usuario  | Password |  cantidad |
+| PE   | 044676648 |     1    |    50     |

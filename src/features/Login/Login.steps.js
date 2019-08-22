@@ -2,11 +2,7 @@ const login = require("./../../pages/Login/Login.module");
 
 const I = actor();
 
-Given("Ingreso el {string}  mi {string} y mi {string}", async function(
-  Pais,
-  Usuario,
-  Password
-) {
+Given("Ingreso el {string}  mi {string} y mi {string}", async function(Pais,Usuario,Password) {
   login.Constructor();
   login.ValidacionInicialLogin();
   this.Pais = Pais;
